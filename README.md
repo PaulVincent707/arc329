@@ -117,7 +117,7 @@ We will query various locations from the Landsat 8 satellite imagery and analyze
 
 We will then use the GeoTIFF imagery and it's different information to calculate the NDVI index and analyze how much cloud coverage vs the NVDI we had on certain days:
 
-![NDVI and Cloud Table](arc329/Images/TABLE.png)
+![NDVI and Cloud Table](blob/master/arc329/Images/TABLE.png)
 
 Lastly we will plot NDVI changes over time for certain areas of interest of the world:
 
