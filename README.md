@@ -96,7 +96,7 @@ aws s3 cp lambda_function.zip s3://<your S3 Bucket Name>/lambda_function.zip
 We will use Jupyter Notebooks to locally run our session examples with Pywren and have the workload executed remotely. To do so, we first need to clone this repository to our local machine:
 
 ```
-git clone https://github.com/<name>/ARC329.git
+git clone https://github.com/PaulVincent707/ARC329.git
 ```
 
 Now enter the newly create `ARC329` folder and start a Jupyter Notebook instance by typing the following command:
@@ -113,12 +113,12 @@ This will launch a Jupyter Notebook instance and open your web browser.  Please 
 
 We will query various locations from the Landsat 8 satellite imagery and analyze them. Example scene:
 
-![Scene Example](Images/napa.jpg)
+![Scene Example](arc329/Images/napa.jpg)
 
 We will then use the GeoTIFF imagery and it's different information to calculate the NDVI index and analyze how much cloud coverage vs the NVDI we had on certain days:
 
-![NDVI and Cloud Table](Images/TABLE.png)
+![NDVI and Cloud Table](arc329/Images/TABLE.png)
 
 Lastly we will plot NDVI changes over time for certain areas of interest of the world:
 
-![NDVI Timeseries](Images/PLOT.png)
+![NDVI Timeseries](arc329/Images/PLOT.png)
