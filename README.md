@@ -42,7 +42,7 @@ This interactive script will set up your initial PyWren configuration.
 If this is your first time using PyWren then accepting the defaults should be fine.
 What is your default aws region? [us-west-2]:
 Location for config file:  [~/.pywren_config]:
-PyWren requires an s3 bucket to store intermediate data. What s3 bucket would you like to use? [jonas-pywren-604]:
+PyWren requires an s3 bucket to store intermediate data. What s3 bucket would you like to use? [random name]:
 Bucket does not currently exist, would you like to create it? [Y/n]: Y
 PyWren prefixes every object it puts in S3 with a particular prefix.
 PyWren s3 prefix:  [pywren.jobs]:
@@ -52,7 +52,7 @@ Would you like to enable PyWren standalone mode? [y/N]:
 Creating config /Users/pauvince/.pywren_config
 new default file created in ~/.pywren_config
 lambda role is pywren_exec_role_1
-Creating bucket pywren-604.
+Creating bucket .
 Creating role.
 Deploying lambda.
 Pausing for 5 seconds for changes to propagate.
